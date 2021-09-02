@@ -1,0 +1,41 @@
+{
+  "properties": [
+    {
+      "name": "web-resource.file-dic",
+      "type": "java.lang.String",
+      "description": "文件磁盘目录"
+    },
+    {
+      "name": "web-resource.file-prefix",
+      "type": "java.lang.String",
+      "description": "文件路径前缀"
+    },
+    {
+      "name": "web-resource.http-address",
+      "type": "java.lang.String",
+      "description": "http资源地址"
+    },
+    {
+      "name": "web-resource.http-prefix",
+      "type": "java.lang.String",
+      "description": "http路径前缀"
+    },
+    {
+      "name": "web-resource.cache-enable",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "description": "是否启用缓存"
+    },
+    {
+      "name": "web-resource.cache-refresh-time",
+      "type": "java.lang.Integer",
+      "defaultValue": 30,
+      "description": "缓存刷新时间（缓存过期时间），单位s"
+    },
+    {
+      "name": "web-resource.resource-pattern",
+      "type": "java.lang.String",
+      "description": "暴露的资源匹配模式"
+    }
+  ]
+}
